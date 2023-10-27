@@ -1,8 +1,8 @@
 {
   "name": "calculadora-frontendmentor",
   "version": "0.1.0",
-  "homepage":"https://devsimocastles.github.io/calculadora-react/",
-  "private": true,
+  "homepage":"https://devsimocastles.github.io/calculadora-react",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
