@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+#root > .App#theme-1 {
+  background-color: hsl(222, 26%, 31%);
+}
+#root > .App#theme-1 header {
+  color: #fff;
+}
+#root > .App#theme-1 header .theme-switch-container label .slider-container input {
+  margin-top: 0.3em;
+  background: hsl(223, 31%, 20%);
+}
+#root > .App#theme-1 header .theme-switch-container label .slider-container input::-webkit-slider-thumb {
+  background: hsl(6, 63%, 50%);
+}
+#root > .App#theme-1 header .theme-switch-container label .slider-container input::-webkit-slider-thumb:hover {
+  background-color: hsl(6, 63%, 65%);
+}
+#root > .App#theme-1 header .theme-switch-container label .slider-container input:hover {
+  cursor: pointer;
+}
+#root > .App#theme-1 .calculator-container .pantalla {
+  color: white;
+  background-color: hsl(224, 36%, 15%);
+}
+#root > .App#theme-1 .calculator-container .calculator-buttons {
+  background-color: hsl(223, 31%, 20%);
+}
+#root > .App#theme-1 .calculator-container .calculator-buttons .row .button {
+  color: hsl(221, 14%, 31%);
+  border-bottom: 3px solid hsl(28, 16%, 65%);
+}
+#root > .App#theme-1 .calculator-container .calculator-buttons .row .button.del, #root > .App#theme-1 .calculator-container .calculator-buttons .row .button.large.reset {
+  background-color: hsl(225, 21%, 49%);
+  border-bottom: 3px solid hsl(224, 28%, 35%);
+}
+#root > .App#theme-1 .calculator-container .calculator-buttons .row .button.large.calculate {
+  background-color: hsl(6, 63%, 50%);
+  border-bottom: 3px solid hsl(6, 70%, 34%);
+}
+#root > .App#theme-1 .calculator-container .calculator-buttons .row .button.del, #root > .App#theme-1 .calculator-container .calculator-buttons .row .button.large {
+  color: hsl(0, 0%, 100%);
+}
+
+#root > .App#theme-2 {
+  background-color: hsl(0, 0%, 90%);
+}
+#root > .App#theme-2 header {
+  color: hsl(60, 10%, 19%);
+}
+#root > .App#theme-2 header .theme-switch-container label .slider-container input {
+  margin-top: 0.3em;
+  background: hsl(0, 5%, 81%);
+}
+#root > .App#theme-2 header .theme-switch-container label .slider-container input::-webkit-slider-thumb {
+  background: hsl(25, 98%, 40%);
+}
+#root > .App#theme-2 header .theme-switch-container label .slider-container input::-webkit-slider-thumb:hover {
+  background-color: hsl(6, 63%, 65%);
+}
+#root > .App#theme-2 header .theme-switch-container label .slider-container input:hover {
+  cursor: pointer;
+}
+#root > .App#theme-2 .calculator-container .pantalla {
+  color: hsl(60, 10%, 19%);
+  background-color: hsl(0, 0%, 93%);
+}
+#root > .App#theme-2 .calculator-container .calculator-buttons {
+  background-color: hsl(0, 5%, 81%);
+}
+#root > .App#theme-2 .calculator-container .calculator-buttons .row .button {
+  background-color: hsl(45, 7%, 89%);
+  color: hsl(60, 10%, 19%);
+  border-bottom: 3px solid hsl(35, 11%, 61%);
+}
+#root > .App#theme-2 .calculator-container .calculator-buttons .row .button.del, #root > .App#theme-2 .calculator-container .calculator-buttons .row .button.large.reset {
+  background-color: hsl(185, 42%, 37%);
+  border-bottom: 3px solid hsl(185, 58%, 25%);
+}
+#root > .App#theme-2 .calculator-container .calculator-buttons .row .button.large.calculate {
+  background-color: hsl(25, 98%, 40%);
+  border-bottom: 3px solid hsl(25, 99%, 27%);
+}
+#root > .App#theme-2 .calculator-container .calculator-buttons .row .button.del, #root > .App#theme-2 .calculator-container .calculator-buttons .row .button.large {
+  color: hsl(0, 0%, 100%);
+}
+
+#root > .App#theme-3 {
+  background-color: hsl(268, 75%, 9%);
+}
+#root > .App#theme-3 header {
+  color: hsl(52, 100%, 62%);
+}
+#root > .App#theme-3 header .theme-switch-container label .slider-container input {
+  margin-top: 0.3em;
+  background: hsl(268, 71%, 12%);
+}
+#root > .App#theme-3 header .theme-switch-container label .slider-container input::-webkit-slider-thumb {
+  background: hsl(176, 100%, 44%);
+}
+#root > .App#theme-3 header .theme-switch-container label .slider-container input::-webkit-slider-thumb:hover {
+  background-color: hsl(6, 63%, 65%);
+}
+#root > .App#theme-3 header .theme-switch-container label .slider-container input:hover {
+  cursor: pointer;
+}
+#root > .App#theme-3 .calculator-container .pantalla {
+  color: hsl(52, 100%, 62%);
+  background-color: hsl(268, 71%, 12%);
+}
+#root > .App#theme-3 .calculator-container .calculator-buttons {
+  background-color: hsl(268, 71%, 12%);
+}
+#root > .App#theme-3 .calculator-container .calculator-buttons .row .button {
+  background-color: hsl(281, 89%, 26%);
+  color: hsl(52, 100%, 62%);
+  border-bottom: 3px solid hsl(285, 91%, 52%);
+}
+#root > .App#theme-3 .calculator-container .calculator-buttons .row .button.del, #root > .App#theme-3 .calculator-container .calculator-buttons .row .button.large.reset {
+  background-color: hsl(268, 47%, 21%);
+  border-bottom: 3px solid hsl(290, 70%, 36%);
+}
+#root > .App#theme-3 .calculator-container .calculator-buttons .row .button.large.calculate {
+  background-color: hsl(176, 100%, 44%);
+  border-bottom: 3px solid hsl(177, 92%, 70%);
+}
+#root > .App#theme-3 .calculator-container .calculator-buttons .row .button.del, #root > .App#theme-3 .calculator-container .calculator-buttons .row .button.large {
+  color: hsl(0, 0%, 100%);
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-height: 370px;
+  width: 80%;
+  max-width: 390px;
+  font-size: 12px;
+  margin-bottom: 2.5em;
+}
+.App header h1 {
+  font-size: 30px;
+}
+.App header .theme-switch-container {
+  font-weight: 700;
+}
+.App header .theme-switch-container label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.App header .theme-switch-container label .slider-container {
+  margin-left: 1em;
+}
+.App header .theme-switch-container label .slider-container .values-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 75%;
+  margin: 0 auto;
+}
+.App header .theme-switch-container label .slider-container input {
+  width: 6em;
+  height: 1.8em;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 0 0.35em;
+  border-radius: 20px;
+}
+.App header .theme-switch-container label .slider-container input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  height: 1.2em;
+  width: 1.3em;
+  border-radius: 100%;
+}
+.App .calculator-container {
+  width: 90%;
+  max-width: 390px;
+}
+.App .calculator-container .pantalla {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  font-size: 36px;
+  height: 2.5em;
+  padding: 0 1em;
+  font-weight: 700;
+  overflow: hidden;
+}
+.App .calculator-container .calculator-buttons {
+  padding: 1em;
+  border-radius: 10px;
+}
+.App .calculator-container .calculator-buttons .row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0.2em 0;
+}
+.App .calculator-container .calculator-buttons .row .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  width: 3em;
+  font-size: 26px;
+  font-weight: 800;
+  height: 2em;
+  margin: 0.2em;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.App .calculator-container .calculator-buttons .row .button.large {
+  flex-grow: 2;
+}/*# sourceMappingURL=main.css.map */

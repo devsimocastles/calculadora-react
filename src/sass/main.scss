@@ -1,0 +1,102 @@
+
+// League Spartan Font
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
+// CSS RESET
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+@import "mixin";
+@import "theme1";
+@import "theme2";
+@import "theme3";
+
+.App{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    header{
+        @include setFlex(row, space-between, center, nowrap);
+        max-height: 370px;
+        width: 80%;
+        max-width: 390px;
+        font-size: 12px;
+        margin-bottom: 2.5em;
+        h1{
+            font-size: 30px;
+        }
+        .theme-switch-container{
+            font-weight: 700;
+            label{
+                @include setFlex(row, space-between, center, nowrap);
+                .slider-container{
+                    margin-left: 1em;
+                    .values-container{
+                        @include setFlex(row, space-between, center, nowrap);
+                        width: 75%;
+                        margin: 0 auto;
+                    }
+                    input{
+                        width: 6em;
+                        height: 1.8em;
+                        appearance: none;
+                        padding: 0 .35em;
+                        border-radius: 20px;
+                        &::-webkit-slider-thumb{
+                            appearance: none;
+                            height: 1.2em;
+                            width: 1.3em;
+                            border-radius: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .calculator-container{
+        width: 90%;
+        max-width: 390px;
+        .pantalla{
+            @include setFlex(row, flex-end, center, nowrap);
+            border-radius: 10px;
+            margin-bottom: 1em;
+            font-size: 36px;
+            height: 2.5em;
+            padding: 0 1em;
+            font-weight: 700;
+            overflow: hidden;
+        }
+        .calculator-buttons{
+            padding: 1em;
+            border-radius: 10px;
+            .row{
+                @include setFlex(row, space-evenly, center, nowrap);
+                margin: .2em 0;
+                .button{
+                    @include setFlex(row, center, center, nowrap);
+                    text-align: center;
+                    width: 3em; 
+                    font-size: 26px;
+                    font-weight: 800;
+                    height: 2em;
+                    margin:.2em;
+                    background-color: #e1e1e1;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    &.large{
+                        flex-grow: 2;
+                    }
+                }
+            }
+        }
+    }
+
+}

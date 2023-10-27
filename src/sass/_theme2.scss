@@ -1,0 +1,53 @@
+#root > .App#theme-2{
+    background-color:hsl(0, 0%, 90%);
+    header{
+        color: hsl(60, 10%, 19%);
+        .theme-switch-container{
+            label{
+                .slider-container{
+                    input{
+                        margin-top: .3em;
+                        background:  hsl(0, 5%, 81%);
+                        &::-webkit-slider-thumb{
+                            background: hsl(25, 98%, 40%);;
+                            &:hover{
+                                background-color: hsl(6, 63%, 65%);
+                            }
+                        }
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .calculator-container{
+        .pantalla{
+            color: hsl(60, 10%, 19%);
+            background-color: hsl(0, 0%, 93%);
+        }
+        .calculator-buttons{
+            background-color: hsl(0, 5%, 81%);
+            .row{
+                .button{
+                    background-color: hsl(45, 7%, 89%);
+                    color: hsl(60, 10%, 19%);
+                    @include keyShadow(hsl(35, 11%, 61%));
+                    &.del,   &.large.reset{
+                        background-color:hsl(185, 42%, 37%);
+                        @include keyShadow(hsl(185, 58%, 25%));
+                    }
+                    &.large.calculate{
+                        background-color: hsl(25, 98%, 40%);
+                        @include keyShadow(hsl(25, 99%, 27%));
+                    }
+                    &.del, &.large{
+                        color: hsl(0, 0%, 100%);
+                    }
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,11 @@
+@mixin setFlex($fd, $jc, $ai, $fw){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-direction: $fd;
+    flex-wrap: $fw;
+}
+
+@mixin keyShadow($border-color){
+    border-bottom: 3px solid $border-color;
+}
